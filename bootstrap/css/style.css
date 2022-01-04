@@ -1,1 +1,30 @@
-# Empty CSS file for your own CSS
+/* hides the title */
+p.rss-title {
+    display:none;
+  }
+  li.rss-item {
+    list-style-type:none;   /* this removes the bullet points */
+    margin-bottom:20px; /* adds spacing under entry content */
+  }
+  
+  /* this styles the blog title link */
+  li.rss-item a {
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:none; /* removes underline */
+  }
+  /* this styles the date */
+  .rss-date {
+    /* need this to add padding */
+    display:inline-block;
+  padding-top:10px;
+    padding-bottom:10px;
+     font-style:italic;
+  }
+  /* this removes the comments image */
+  .rss-item > img:last-child {
+    display:none;
+  }
+  a.rss-item:last-child {
+    display:none;
+  }
