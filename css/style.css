@@ -57,6 +57,9 @@ nav a {
     font-weight: 800;
     text-decoration: none;
 }
+.active {
+    background-color: #343046;
+}
 
 nav a:hover {
     background-color: #343046;
